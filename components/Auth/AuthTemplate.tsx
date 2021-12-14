@@ -1,7 +1,13 @@
 import React from 'react';
 
 const AuthTemplate = () => {
-  return <div></div>;
+  return (
+    <div>
+      <form>
+        <input />
+      </form>
+    </div>
+  )
 };
 
 export default AuthTemplate;

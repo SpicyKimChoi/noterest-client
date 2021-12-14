@@ -24,6 +24,6 @@
   "engines": {
     "npm": "please-use-yarn",
     "yarn": ">= 1.17.3",
-    "node": ">= 12.5.0"
+    "node": ">= 12.18.2"
   }
 }
