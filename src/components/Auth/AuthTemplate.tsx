@@ -7,7 +7,7 @@ const AuthTemplate = () => {
         <input />
       </form>
     </div>
-  )
+  );
 };
 
 export default AuthTemplate;
