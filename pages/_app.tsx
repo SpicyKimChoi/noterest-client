@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <ErrorBoundary FallbackComponent={ErrorFallback}>
         <ThemeProvider theme={theme}>
           <RecoilRoot>
-            <Component {...pageProps} />
+            <Component {...pageProps} />;
           </RecoilRoot>
         </ThemeProvider>
       </ErrorBoundary>
