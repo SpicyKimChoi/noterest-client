@@ -4,7 +4,6 @@ import { RecoilRoot } from 'recoil';
 import { QueryClient, QueryClientProvider } from 'react-query';
 
 function MyApp({ Component, pageProps }: AppProps) {
-
   const queryClient = new QueryClient();
 
   return (
@@ -13,7 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />;
       </RecoilRoot>
     </QueryClientProvider>
-  )
+  );
 }
 
 export default MyApp;
