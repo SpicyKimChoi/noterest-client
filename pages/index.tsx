@@ -1,10 +1,10 @@
-import React from 'react';
-import Header from '../src/components/header/Header';
-
+import Header from '../common/Header';
+import Popup from '../common/Popup';
 const Home = () => {
   return (
     <>
-      <Header />
+      <Header></Header>
+      <Popup></Popup>
     </>
   );
 };
